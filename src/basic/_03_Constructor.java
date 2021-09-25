@@ -16,7 +16,7 @@ class Who {
     }
 }
 
-public class _3_Constructor {
+public class _03_Constructor {
     public static void main(String[] args) {
         Who man = new Who("정호",19);
         Who woman = new Who("유미",20);

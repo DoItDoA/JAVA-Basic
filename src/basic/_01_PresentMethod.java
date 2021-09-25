@@ -1,6 +1,6 @@
 package basic;
 
-public class _1_PresentMethod {
+public class _01_PresentMethod {
     public static void main(String[] args) {
         final int MAX_SIZE = 100; // 상수설정은 final, 상수설정은 대문자로 이룬다
         System.out.println(MAX_SIZE);

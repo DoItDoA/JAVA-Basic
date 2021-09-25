@@ -1,6 +1,6 @@
 package basic;
 
-public class _9_StringRef {
+public class _09_StringRef {
     public static void main(String[] args) {
         String str1 = "abc";
         String str2 = new String("ABC"); // String도 클래스라 원래는 이렇게 표현

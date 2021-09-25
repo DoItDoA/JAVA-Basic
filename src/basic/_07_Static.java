@@ -3,7 +3,7 @@ package basic;
 import java.time.LocalDate;
 import static java.lang.Math.*; // import에 static 붙여 Math.함수 사용대신 바로 사용가능하게 함
 
-public class _7_Static {
+public class _07_Static {
     static String date;
 
     static { // 클래스 로딩시 단 한번만 실행이 되는 영역

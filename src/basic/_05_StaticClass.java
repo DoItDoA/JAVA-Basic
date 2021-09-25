@@ -8,7 +8,7 @@ class aaa{
     }
 }
 
-public class _5_StaticClass {
+public class _05_StaticClass {
     public static void main(String[] args) {
         aaa way = new aaa(); // 여기서 생성자가 1증가 시킴
         way.num++; // 생성된 인스턴스로 1증가

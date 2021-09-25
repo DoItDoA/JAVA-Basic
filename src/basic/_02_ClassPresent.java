@@ -14,7 +14,7 @@ class Bank {
     }
 }
 
-public class _2_ClassPresent {
+public class _02_ClassPresent {
     public static void main(String[] args) {
         Bank ref = new Bank();
         ref.deposit(1000);
