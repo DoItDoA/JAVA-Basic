@@ -63,7 +63,7 @@ public class _51_StreamTerminal {
         b = IntStream.of(1, 3, 5).noneMatch(n -> n % 2 == 0); // 짝수가 하나도 없으면 true 반환, 있으면 false 반환
         System.out.println(b);
 
-        // collect
+        // collect (마지막에 원하는 형태로 변환해주는 역할)
         String[] words = {"Box", "Toy", "Robot"};
         Stream<String> ssc = Arrays.stream(words);
 
