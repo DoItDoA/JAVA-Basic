@@ -1,6 +1,6 @@
 package basic;
 
-class bbb {
+class BBB {
     static void show() { // static 메소드 생성
         System.out.println("출력");
     }
@@ -14,6 +14,10 @@ class bbb {
 
 public class _06_StaticMethod {
     public static void main(String[] args) {
-        bbb.show(); // static 메소드도 어디서나 접근 가능하여 클래스명.메소드명으로 접근이 가능
+        BBB.show(); // static 메소드도 어디서나 접근 가능하여 클래스명.메소드명으로 접근이 가능
     }
 }
+/*
+ --출력화면--
+ 출력
+*/

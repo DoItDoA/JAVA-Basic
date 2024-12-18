@@ -25,3 +25,7 @@ public class _03_Constructor {
         woman.present();
     }
 }
+/*
+ --출력화면--
+ 출력
+*/

@@ -1,12 +1,12 @@
 package basic;
 
-class c {
+class C {
     void a() {
         System.out.println("A출력");
     }
 }
 
-class cc extends c {
+class CC extends C {
     void b() {
         System.out.println("B출력");
     }
@@ -38,7 +38,7 @@ class Zookeeper {
 
 public class _13_Polymorphism {
     public static void main(String[] args) {
-        c obj = new cc(); // 부모가 자식 인스턴스를 참조한다(다형성)
+        C obj = new CC(); // 부모가 자식 인스턴스를 참조한다(다형성)
         obj.a(); // 부모 함수는 호출이 가능하다.
         // obj.b(); 자식함수는 참조함에도 불구하고 호출이 불가능하다.
 

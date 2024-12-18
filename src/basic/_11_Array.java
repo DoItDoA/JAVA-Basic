@@ -2,10 +2,10 @@ package basic;
 
 import java.util.Arrays;
 
-class ddd {
+class DDD {
     private String str;
 
-    ddd(String str) {
+    DDD(String str) {
         this.str = str;
     }
 
@@ -16,12 +16,12 @@ class ddd {
 
 public class _11_Array {
     public static void main(String[] args) {
-        ddd[] ar = new ddd[2]; // 클래스를 배열로 만들기
+        DDD[] ar = new DDD[2]; // 클래스를 배열로 만들기
 
-        ar[0] = new ddd("first"); // 각 배열에 새로 인스턴스 생성하여 값 저장
-        ar[1] = new ddd("second");
+        ar[0] = new DDD("first"); // 각 배열에 새로 인스턴스 생성하여 값 저장
+        ar[1] = new DDD("second");
 
-        for (ddd e : ar) { // 배열 for문은 이렇게 사용하는 것이 편하다 (클래스 명칭아무거나 : 참조변수)
+        for (DDD e : ar) { // 배열 for문은 이렇게 사용하는 것이 편하다 (클래스 명칭아무거나 : 참조변수)
             System.out.println(e);
         }
 
@@ -39,6 +39,5 @@ public class _11_Array {
                 {22, 33},
                 {44, 55, 66}
         };
-
     }
 }
