@@ -49,7 +49,11 @@ public class _41_InnerClass {
         Outer.Member member2 = out.new Member();
 
         member1.add(7); // 첫번째 인스턴스에서 변수값 저장
-        System.out.println(member2.get());; // 두번째 인스턴스에서 변수값 호출
-
+        System.out.println(member2.get()); // 두번째 인스턴스에서 변수값 호출
     }
 }
+/*
+ --출력화면--
+5
+7
+*/

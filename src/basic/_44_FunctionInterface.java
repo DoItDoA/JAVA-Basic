@@ -71,3 +71,10 @@ public class _44_FunctionInterface {
         System.out.println(f.apply("Robot"));
     }
 }
+/*
+ --출력화면--
+짝수 합 : 16
+[46, 37, 2, 35, 2]
+Consumer
+5
+*/

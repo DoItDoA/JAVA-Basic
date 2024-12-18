@@ -41,3 +41,9 @@ public class _11_Array {
         };
     }
 }
+/*
+ --출력화면--
+first
+second
+7777777777
+*/

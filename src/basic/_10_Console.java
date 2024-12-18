@@ -33,3 +33,14 @@ public class _10_Console {
         System.out.println("출력 " + str + " " + num + " " + num2);
     }
 }
+/*
+ --출력화면--
+box
+문자열 입력 :
+a
+숫자 입력 :
+2
+소수 입력 :
+1.2
+출력 a 2 1.2
+*/

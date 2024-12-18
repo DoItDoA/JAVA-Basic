@@ -2,7 +2,7 @@ package basic;
 
 class S {
     static int count = 0; // 클래스 변수와 메소드는 s 인스턴스내에 존재하지않기 때문에 상속의 대상이 아니다
-    
+
     public S() {
         System.out.println("parents");
     }
@@ -33,3 +33,10 @@ public class _12_Inherit {
         new SS(1);
     }
 }
+/*
+ --출력화면--
+parents
+children
+parents(int i, int j)
+children(int i)
+*/

@@ -6,15 +6,19 @@ import static java.lang.Math.*; // import에 static 붙여 Math.함수 사용대
 class InnerClass {
     static int data = 0;
 
+    InnerClass() {
+        System.out.println("생성자 호출됨");
+        data++;
+    }
+
     static { // 클래스 로딩시 단 한번만 실행이 되는 영역
-        System.out.println("호출됨");
+        System.out.println("static 호출됨");
         data++;
     }
 
     public static int take() {
         return data;
     }
-
 }
 
 public class _07_Static {
@@ -23,15 +27,16 @@ public class _07_Static {
 
         // 객체 생성, 필드 호출, 메서드 호출 등 해당 클래스에 대해서 단 한번만 호출됨
         // 생성자는 객체 생성마다 호출
-        InnerClass innerClass = new InnerClass(); // static{} 호출
-        System.out.println(InnerClass.data);
+        InnerClass innerClass = new InnerClass(); // static{} 호출 후, 생성자 호출
+        System.out.println(innerClass.data);
         System.out.println(InnerClass.take());
     }
 }
 /*
  --출력화면--
- 3.141592653589793
- 호출됨
- 1
- 1
+3.141592653589793
+static 호출됨
+생성자 호출됨
+2
+2
 */

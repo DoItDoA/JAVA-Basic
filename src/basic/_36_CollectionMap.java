@@ -40,11 +40,21 @@ public class _36_CollectionMap {
         tMap.put(23, "Martin");
 
         Set<Integer> kst = tMap.keySet();
-        
+
         for (Integer n : kst) {
             System.out.print(n.toString() + '\t');
             System.out.println(hMap.get(n));
         }
-
     }
 }
+/*
+ --출력화면--
+37	James
+23	Martin
+45	Brown
+
+45	Brown
+37	James
+23	Martin
+
+*/

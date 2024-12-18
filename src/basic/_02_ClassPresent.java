@@ -25,3 +25,7 @@ public class _02_ClassPresent {
         acc.checkMyBalance();
     }
 }
+/*
+ --출력화면--
+잔액 1000
+*/

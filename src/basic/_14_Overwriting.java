@@ -41,3 +41,13 @@ public class _14_Overwriting { // 참고로 변수와 클래스변수, 클래스
         b3.show2();
     }
 }
+/*
+ --출력화면--
+B출력
+BB출력
+BB출력
+B2출력
+BB2출력
+B2출력
+BB2출력
+*/

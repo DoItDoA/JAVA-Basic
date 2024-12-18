@@ -39,3 +39,9 @@ public class _15_Instanceof {
         }
     }
 }
+/*
+ --출력화면--
+T출력
+TT출력
+TTT출력
+*/

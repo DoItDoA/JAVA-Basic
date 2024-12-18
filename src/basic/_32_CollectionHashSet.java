@@ -107,3 +107,11 @@ public class _32_CollectionHashSet {
             System.out.print(l.toString() + '\t');
     }
 }
+/*
+ --출력화면--
+Box	Toy
+7777
+HY : RED
+HD : RED
+Box	Toy
+*/

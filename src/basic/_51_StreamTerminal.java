@@ -82,3 +82,17 @@ public class _51_StreamTerminal {
         System.out.println(listParallel);
     }
 }
+/*
+ --출력화면--
+Complex
+Complex
+sum = 25.0
+count = 5
+avg = 5.0
+min = 1
+false
+true
+true
+[Box, Toy]
+[Box, Toy, Robot]
+*/

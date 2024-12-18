@@ -64,3 +64,8 @@ public class _26_Generics {
         Apple apple = box.getObj();
     }
 }
+/*
+ --출력화면--
+eat
+
+*/

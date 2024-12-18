@@ -38,3 +38,8 @@ public class _27_GenericMethod {
         System.out.println(kkk.getObj());
     }
 }
+/*
+ --출력화면--
+Sweet
+Simple
+*/

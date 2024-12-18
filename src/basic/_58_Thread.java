@@ -75,3 +75,12 @@ public class _58_Thread {
         exr.shutdown(); // 쓰레드 풀과 그 안에 있는 쓰레드의 소멸
     }
 }
+/*
+ --출력화면--
+쓰레드 이름 : main
+쓰레드 이름 : Anything
+0 쓰레드 이름 : Thread-0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 End
+pool-1-thread-1 : 30
+pool-1-thread-1 : 35
+*/

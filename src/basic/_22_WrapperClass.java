@@ -22,7 +22,11 @@ public class _22_WrapperClass {
         showData(i);
         showData(num);
         showData(new Double(7.12));
-
-
     }
 }
+/*
+ --출력화면--
+3
+3
+7.12
+*/

@@ -50,3 +50,9 @@ public class _28_Wildcard {
         GetBox.underBox(box2); // <? super Integer>되어 있어 Integer이상으로 입력해봤다
     }
 }
+/*
+ --출력화면--
+simple
+111111
+222222
+*/

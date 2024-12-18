@@ -35,8 +35,14 @@ public class _38_CollectionSearchAndCopy {
         Collections.sort(src); // 복사이전에 정렬부터한다.
         Collections.copy(list, src); // src의 내용을 list에 덮어씌우기. 덮어씌어질 공간이 적어도 src보다 크거나 같아야한다.
         System.out.println(list);
-
     }
-
 }
+/*
+ --출력화면--
+[Apple, Box, Robot]
+2 Robot
+[Apple, Box, Robot]
+2 Robot
+[로봇, 박스, 사과]
 
+*/

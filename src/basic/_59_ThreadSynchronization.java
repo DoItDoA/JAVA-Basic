@@ -60,7 +60,10 @@ public class _59_ThreadSynchronization {
         boolean isTeminated = exr.awaitTermination(3, TimeUnit.SECONDS); // shotdown() 메소드 호출 후, 모든 작업 처리를 시간내에 처리하면 true, 못하면 interrupt하고 false 리턴
         System.out.println(cnt.getCount());
         System.out.println(isTeminated);
-
-
     }
 }
+/*
+ --출력화면--
+0
+true
+*/

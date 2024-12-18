@@ -4,6 +4,7 @@ class AAA {
     static int num = 0; // static 변수 선언
 
     AAA() {
+        System.out.println("생성자 호출");
         num++;
     }
 }
@@ -16,3 +17,8 @@ public class _05_StaticClass {
         System.out.println(AAA.num);
     }
 }
+/*
+ --출력화면--
+생성자 호출
+3
+*/

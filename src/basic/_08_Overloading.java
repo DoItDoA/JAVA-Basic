@@ -27,3 +27,10 @@ public class _08_Overloading {
         you.show();
     }
 }
+/*
+ --출력화면--
+num1 = 123
+num2 = 456
+num1 = 789
+num2 = 0
+*/

@@ -12,7 +12,13 @@ public class _24_ArrayClass {
         }
         System.out.println();
 
-        int idx = Arrays.binarySearch(arOrg,3); // 해당 배열에서 값찾기. 배열의 인덱스값 반환
+        int idx = Arrays.binarySearch(arOrg, 3); // 해당 배열에서 값찾기. 배열의 인덱스값 반환
         System.out.println(idx);
     }
 }
+/*
+ --출력화면--
+3 4 5
+2
+
+*/

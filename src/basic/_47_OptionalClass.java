@@ -22,13 +22,13 @@ public class _47_OptionalClass {
         Optional<String> useMap = Optional.of("map");
         Optional<String> mapOs = useMap.map(s -> s.toString()); // map은 해당 값을 람다식으로 변형하여 Optional<T>로 반환한다
         System.out.println(mapOs.get()); // 변형된 값 추출
-        
+
         // 3. Optional 클래스의 flatMap 메소드
         // flatMap도 반환형은 Optional<T>이고 단순히 식만 볼때는 Map낫다. flatMap 응용은 다음 설명 참조
         Optional<String> useFlatMap = Optional.of("flatMap");
         Optional<String> flatMapOs = useFlatMap.flatMap(s -> Optional.of(s.toString())); // flatMap은 map과 달리 Optional.of 인스턴스생성에 영향받지않아 한번 더 람다식으로 해야한다
         System.out.println(flatMapOs.get());
-        
+
         // 4. null값 대체 메소드 orElse
         Optional<String> EmptyOs = Optional.empty(); // empty()는 null값을 생성, 'ofNullable(null)'과 같다
         String str = EmptyOs.map(s -> s.toString()).orElse("Empty"); // 값이 존재하면 map이 출력되고 없으면 orElse로 출력된다. orElse 반환형은 String
@@ -42,3 +42,12 @@ public class _47_OptionalClass {
         OptionalInt oi = OptionalInt.of(3); // 제네릭의 <Integer>,<Long>,<Double>의 오토언박싱을 미리 설정
     }
 }
+/*
+ --출력화면--
+of
+ofNullable
+of
+map
+flatMap
+Empty
+*/

@@ -28,10 +28,20 @@ public class _09_StringRef {
 
         StringBuilder strBuild = new StringBuilder("123"); // StringBuilder는 내부적으로 문자열을 저장하기위한 공간을 가진다. 그 공간에서 추가,제거등 가능한데 여기서하는 것이 효율적이다
         strBuild.append(456789); // 문자열추가. 결과 - 123456789
-        strBuild.delete(0,2); // 0에서 2이전까지 제거. 결과 - 3456789
-        strBuild.replace(0,3,"AB"); // 0에서 3이전까지 문자열 교체. 결과 - AB6789
+        strBuild.delete(0, 2); // 0에서 2이전까지 제거. 결과 - 3456789
+        strBuild.replace(0, 3, "AB"); // 0에서 3이전까지 문자열 교체. 결과 - AB6789
         strBuild.reverse(); // 문자열 뒤집기. 결과 - 9876BA
         System.out.println(strBuild.toString()); //toString()이 문자열 반환이어 원칙적으로 사용해야하지만 없어도 출력이 된다
 
     }
 }
+/*
+ --출력화면--
+다르다
+abcABC
+abc
+32
+0
+100
+9876BA
+*/

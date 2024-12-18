@@ -27,7 +27,12 @@ public class _31_ListIterator {
             str = litr.previous(); // str로 따로 저장해둬야 오류가 안남. 이전으로 이동
             System.out.print(str + '\t');
             if (str.equals("Toy2"))
-                litr.add("Robot"); 
+                litr.add("Robot");
         }
     }
 }
+/*
+ --출력화면--
+Toy	Box
+Box	Toy2	Robot	Toy
+*/

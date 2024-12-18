@@ -2,13 +2,15 @@ package basic;
 
 interface I {
     int SIZE = 100; // 인터페이스의 변수는 public이면서 static, final이다
+
     void show(String str); // 메소드의 양식 설정. 인터페이스의 메소드는 public이 안적혀도 public선언이다.
 }
 
 interface II extends I { // 인터페이스끼리 상속할 때는 extends를 이용한다
     void show2(String str);
 
-    default void show3(String str) { } // default를 추가하면 선택적으로 오버라이딩할 수 있다. 반드시 바디{ }를 쓴다
+    default void show3(String str) {
+    } // default를 추가하면 선택적으로 오버라이딩할 수 있다. 반드시 바디{ }를 쓴다
 }
 
 class Inter implements II { // 인터페이스는 implement를 이용하여 구현한다
@@ -31,3 +33,8 @@ public class _16_Interface {
         ref.show2(str);
     }
 }
+/*
+ --출력화면--
+this is interface
+THIS IS INTERFACE
+*/

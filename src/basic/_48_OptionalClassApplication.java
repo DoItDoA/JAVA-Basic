@@ -64,7 +64,7 @@ public class _48_OptionalClassApplication {
 
     // flapMap 관련 메소드
     public static void showFlatMap(Optional<FlatMapA> a) {
-        String str = a.flatMap(FlatMapA::getFlatMapA) 
+        String str = a.flatMap(FlatMapA::getFlatMapA)
                 .flatMap(FlatMapB::getFlatMapB)
                 .orElse("nothing");
         // 보통 flatMap은 Optional 인스턴스(Optional.of) 생성수보다 1개 적다
@@ -83,3 +83,8 @@ public class _48_OptionalClassApplication {
         showFlatMap(fma);
     }
 }
+/*
+ --출력화면--
+map
+flapMap
+*/

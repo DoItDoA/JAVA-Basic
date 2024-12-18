@@ -23,3 +23,10 @@ public class _20_ExtendsException {
         }
     }
 }
+/*
+ --출력화면--
+나이 입력 :
+-20
+에러
+유효하지 않은 나이
+*/

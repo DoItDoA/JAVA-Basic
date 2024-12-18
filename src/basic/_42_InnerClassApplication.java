@@ -62,6 +62,11 @@ public class _42_InnerClassApplication {
 
         Printable anonymousPrn = p.localPrint();  // 함수를 호출하면서 익명클래스 내의 어떠한 인스턴스를 생성한다.
         anonymousPrn.print();
-
     }
 }
+/*
+ --출력화면--
+서류
+서류
+서류
+*/

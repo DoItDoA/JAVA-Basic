@@ -69,3 +69,8 @@ public class _29_WildcardApplication {
         System.out.println("Move " + box2.getObj()); // 토이박스 2에서 장난감 꺼내기
     }
 }
+/*
+ --출력화면--
+Toy
+Move Toy
+*/

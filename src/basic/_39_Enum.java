@@ -22,3 +22,10 @@ public class _39_Enum {
         System.out.println(Person.WOMAN);
     }
 }
+/*
+ --출력화면--
+Constructor
+Constructor
+I am 29 years old
+I am 25 years old
+*/

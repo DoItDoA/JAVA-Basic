@@ -62,3 +62,13 @@ public class _49_Stream {
                 .forEach(f -> System.out.print(f + "\t"));
     }
 }
+/*
+ --출력화면--
+6
+lee	park
+11	22	33	44
+5	6	7
+5	6	7	8	Toy	Robot	Box
+[Toy, Robot, Box]
+1.1	2.2	3.3	4.4
+*/

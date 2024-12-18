@@ -15,6 +15,7 @@ import java.util.Deque;
 
 interface IStack<E> {
     public boolean push(E item);
+
     public E pop();
 }
 
@@ -61,3 +62,14 @@ public class _35_CollectionDeque {
         System.out.println(stk.pop());
     }
 }
+/*
+ --출력화면--
+Toy
+Box
+check : Robot
+Robot
+
+3.Robot
+2.Toy
+1.Box
+*/

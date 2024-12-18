@@ -26,7 +26,7 @@ class Compare implements Comparable { // 메소드 compareTo를 쓰기 위해서
         */ // 아래가 더 간편
         // p.age는 Arrays.sort에 들어오는 새 인스턴스의 age값, this.age는 Compare(name,age)의 생성자에 들어오는 값
         return p.age - this.age; // 서로 비교를 하여 p가 this보다 크면 양수를 반환하여 차순을 위로 염두해둔다.(내림차순)
-        
+
     }
 
     @Override
@@ -48,3 +48,9 @@ public class _25_Sort {
             System.out.println(p);
     }
 }
+/*
+ --출력화면--
+Soo : 40
+Lee : 29
+Goo : 26
+*/

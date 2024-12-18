@@ -43,3 +43,7 @@ public class _57_FileRandomAccess {
         }
     }
 }
+/*
+ --출력화면--
+
+*/

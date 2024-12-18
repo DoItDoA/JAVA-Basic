@@ -50,3 +50,9 @@ public class _13_Polymorphism {
         man.feed(tiger);
     }
 }
+/*
+ --출력화면--
+A출력
+사자에게 먹이주기
+호랑이에게 먹이주기
+*/

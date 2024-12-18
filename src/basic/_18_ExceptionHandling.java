@@ -12,9 +12,15 @@ public class _18_ExceptionHandling {
     public static void main(String[] args) {
         try {
             md1(3); // 넘겨받은 예외를 catch로 넘긴다.
-        } catch (Throwable e) { // Throwable은 최상위 예외 클래스이다. 최상위 예외 클래스를 상속하는 Exception을 써도 된다
+        } catch (Exception e) { // Throwable은 최상위 예외 클래스이다. Throwable을 상속하는 Exception을 써도 된다
+            System.out.println("예외 발생");
             e.printStackTrace(); // 오류 경로 추적
         }
         System.out.println("end"); // try catch문이 없으면 예외 처리 못하므로 가상머신이 예외처리하고 종료한다. 즉 "end"가 출력인 안됨
     }
 }
+/*
+ --출력화면--
+예외 발생
+end
+*/

@@ -20,3 +20,8 @@ public class _45_RemoveIf {
         System.out.println(list2);
     }
 }
+/*
+ --출력화면--
+[0, 1, 2, 3]
+[0.0, 1.1, 2.2, 3.3]
+*/

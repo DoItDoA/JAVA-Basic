@@ -70,6 +70,13 @@ public class _46_MethodReferences {
         Function<char[], String> f = String::new; // new는 이렇게 표현하기로 일종의 약속
         String str = f.apply(src); // String apply(char[] src) { return new String(src) };, 배열 char를 이용하여 String으로 변경
         System.out.println(str);
-
     }
 }
+/*
+ --출력화면--
+[9, 7, 5, 3, 1]
+[9, 7, 5, 3, 1]
+97531
+7
+ROBOT
+*/

@@ -63,10 +63,19 @@ public class _37_CollectionSort {
         BusCompare comp = new BusCompare();
         // sort 구성이 'public static <T> void sort(List<T> list, Comparator<? super T> comp)
         // public static <EBus> void sort(List<EBus> list, Comparator<? super EBus> comp)
-        Collections.sort(list,comp);
+        Collections.sort(list, comp);
 
         for (Iterator<EBus> itr = list.iterator(); itr.hasNext(); )
             System.out.println(itr.next());
-
     }
 }
+/*
+ --출력화면--
+cc : 1200, battery : 99
+cc : 1800, battery : 87
+cc : 3000, battery : 55
+
+cc : 3000, battery : 55
+cc : 1800, battery : 87
+cc : 1200, battery : 99
+*/

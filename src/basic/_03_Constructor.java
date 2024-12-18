@@ -18,8 +18,8 @@ class Who {
 
 public class _03_Constructor {
     public static void main(String[] args) {
-        Who man = new Who("정호",19);
-        Who woman = new Who("유미",20);
+        Who man = new Who("정호", 19);
+        Who woman = new Who("유미", 20);
 
         man.present();
         woman.present();
@@ -27,5 +27,8 @@ public class _03_Constructor {
 }
 /*
  --출력화면--
- 출력
+이름 : 정호
+나이 : 19
+이름 : 유미
+나이 : 20
 */

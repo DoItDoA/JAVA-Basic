@@ -64,3 +64,11 @@ public class _50_StreamIntermediate {
                 .sum(); // 여기서 sum은 실행 결과에 아무런 영향을 주지 않는다. 따라서 중간연산이 출력된다.
     }
 }
+/*
+ --출력화면--
+TOY	BOX
+3	5	3
+70.0
+Box	Apple	Rabbit
+1	3	5
+*/

@@ -17,3 +17,7 @@ public class _60_ThreadCallableAndFuture {
         exr.shutdown();
     }
 }
+/*
+ --출력화면--
+5
+*/

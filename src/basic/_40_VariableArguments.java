@@ -13,3 +13,9 @@ public class _40_VariableArguments {
         showAll("Box", "Toy", "Apple");
     }
 }
+/*
+ --출력화면--
+Box
+Box	Toy
+Box	Toy	Apple
+*/

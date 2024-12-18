@@ -49,3 +49,10 @@ public class _43_Lambda {
         System.out.println(c.cal(4, 3));
     }
 }
+/*
+ --출력화면--
+Anonymous
+Lambda
+Lambda
+7
+*/

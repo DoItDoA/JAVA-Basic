@@ -35,3 +35,7 @@ public class _30_CollectionList {
         }
     }
 }
+/*
+ --출력화면--
+Toy	Robot
+*/

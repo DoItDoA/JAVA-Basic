@@ -30,7 +30,7 @@ public class _56_NIOStreamChannel {
 
         ByteBuffer buf = ByteBuffer.allocate(1024); // 1024바이트 버퍼 생성. 입출력 파일의 크기가 작고 빈번할 때 사용
         // ByteBuffer buf = ByteBuffer.allocateDirect(1024); -> 파일의 크기가 크고 빈번하지 않을 때 사용
-        
+
         try (FileChannel inputC = FileChannel.open(src, StandardOpenOption.READ); // 원본으로부터 읽기 위한 입력용 채널 생성
              FileChannel outputC = FileChannel.open(dst, StandardOpenOption.WRITE, StandardOpenOption.CREATE)) // 복사본에 쓰기 위한 출력용 채널 생성, CREATE는 위의 설명참조
         {
@@ -49,3 +49,7 @@ public class _56_NIOStreamChannel {
         }
     }
 }
+/*
+ --출력화면--
+
+*/

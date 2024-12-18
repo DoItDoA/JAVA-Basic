@@ -23,3 +23,10 @@ public class _34_CollectionQueue {
         System.out.println(que.poll());
     }
 }
+/*
+ --출력화면--
+Box
+check : Toy
+Toy
+Robot
+*/

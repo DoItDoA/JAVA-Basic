@@ -11,7 +11,7 @@ public class _54_IOStreamCopy {
 
         System.out.println("사본 이름 : ");
         String dst = sc.nextLine(); // 복사될 파일 이름 지점 xxx.dat, xxx.txt... 입력
-        
+
         // ;으로 구분하여 입력과 출력 스트림 생성
         try (BufferedInputStream in = new BufferedInputStream(new FileInputStream(src));
              BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(dst))) {
@@ -28,3 +28,7 @@ public class _54_IOStreamCopy {
         }
     }
 }
+/*
+ --출력화면--
+
+*/
